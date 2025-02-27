@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#8ABFCF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="200dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/luggage"
+
+        />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/unleash_your_wanderlust"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/get_started"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="@string/get_started"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:backgroundTint="#D9D9D9"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>

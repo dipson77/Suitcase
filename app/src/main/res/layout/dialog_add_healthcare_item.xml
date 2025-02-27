@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edit_text_healthcare_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Medicine Name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/edit_text_healthcare_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:textSize="22sp"
+            android:layout_marginStart="100dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
